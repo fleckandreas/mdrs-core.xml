@@ -35,11 +35,6 @@
     <MDDefMetadata/>    
     <TypeSpec></TypeSpec>
   </MDDef>
-  <MDDef id="6" type="textde">
-    <Label xml:lang="de">defaultValue</Label>
-    <MDDefMetadata/>    
-    <TypeSpec></TypeSpec>
-  </MDDef>
   <MDDef id="7" type="textde">
     <Label xml:lang="de">taxpos</Label>
     <MDDefMetadata/>    
