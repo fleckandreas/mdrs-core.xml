@@ -40,14 +40,22 @@
     <Label xml:lang="de">Beschreibung</Label>
     <Label xml:lang="en">Description</Label>
     <MDDefMetadata/>    
-    <TypeSpec></TypeSpec>
+    <TypeSpec>
+         <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="8" type="textde">
+    <Label xml:lang="de">Eigentümer</Label>
+    <Label xml:lang="en">Owner</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>    
+  <MDDef id="10" type="textde">
     <Label xml:lang="de">defaultValue</Label>
     <MDDefMetadata/>    
     <TypeSpec></TypeSpec>
   </MDDef>
-  <MDDef id="9" type="textde">
+  <MDDef id="11" type="textde">
     <Label xml:lang="de">taxpos</Label>
     <MDDefMetadata/>    
     <TypeSpec></TypeSpec>
