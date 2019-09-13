@@ -66,4 +66,14 @@
     <MDDefMetadata/>    
     <TypeSpec></TypeSpec>
   </MDDef>
+  <MDDef id="12" type="boolean">
+    <Label xml:lang="de">required</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="13" type="textde">
+    <Label xml:lang="de">order</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>    
 </MDCat>
