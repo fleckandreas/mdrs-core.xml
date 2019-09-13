@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDCat xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/iqb-mdc/core/master/mdc.xsd"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="https://raw.githubusercontent.com/iqb-mdc/core/master/mdc-core.xml" version="1.0.0">
+  <Label xml:lang="de">Basis-Katalog für die Erstellung von Metadatendefinitionen eines MDRS-Katalogs bzw. MDRS-Metadatendefinitionen</Label>  
+  <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
+  <License>MIT</License>
+  <MDDef id="1" type="textde">
+    <Label xml:lang="de">Hauptsprache</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="2" type="textde">
+    <Label xml:lang="de">optionale Sprachen</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="3" type="textde">
+    <Label xml:lang="de">Version</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="4" type="textde">
+    <Label xml:lang="de">License</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef> 
+  <MDDef id="5" type="textde">
+    <Label xml:lang="de">Sprache</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="6" type="textde">
+    <Label xml:lang="de">defaultValue</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="6" type="textde">
+    <Label xml:lang="de">defaultValue</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="7" type="textde">
+    <Label xml:lang="de">taxpos</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="8" type="listsingleselect">
+    <Label xml:lang="de">MDDef-Typ</Label>
+    <Description xml:lang="de">1:1 Umsetzung der Typen aus xsd</Description>
+    <MDDefMetadata/>      
+    <TypeSpec>
+      <ListControl>float</ListControl>
+    </TypeSpec>
+    <Value id="1"><Label xml:lang="de">integer</Label></Value>
+    <Value id="2"><Label xml:lang="de">decimal</Label></Value>
+    <Value id="3"><Label xml:lang="de">textde</Label></Value>
+    <Value id="4"><Label xml:lang="de">textmultilang</Label></Value>
+    <Value id="5"><Label xml:lang="de">date</Label></Value>
+    <Value id="6"><Label xml:lang="de">filelink</Label></Value>
+    <Value id="7"><Label xml:lang="de">folderlink</Label></Value>
+    <Value id="8"><Label xml:lang="de">boolean</Label></Value>
+    <Value id="9"><Label xml:lang="de">listsingleselect</Label></Value>
+    <Value id="10"><Label xml:lang="de">listmultiselect</Label></Value>
+    <Value id="11"><Label xml:lang="de">metadataset</Label></Value>    
+  </MDDef> 
+</MDCat>
